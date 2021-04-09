@@ -44,10 +44,11 @@ void Moo(int k, int N) { // N: 찾고자 하는 요소의 위치 , k: 함수의 인덱스
 		}
 
 	}
-
 }
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
 	int N;
 	cin >> N;
 	findIdx(N); // N이 들어있는 S(idx) 에서 idx 찾기
